@@ -1,0 +1,22 @@
+/* css for the images */ 
+
+img{
+    height: auto;
+        width: 250px;
+        
+    }
+    #andman{
+        height: 300px;
+        width: 150px;
+    }
+
+  
+    .equalsizes {
+        height: auto;
+        width: 300px;
+    }
+      
+      .lineup{
+        display: flex;
+      } 
+      
