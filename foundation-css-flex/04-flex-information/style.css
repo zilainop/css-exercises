@@ -1,0 +1,55 @@
+   
+   /* adding font family for the whole project */
+   *
+        {
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+    
+          /* blow is to costomize the information heading */
+.information 
+   {
+    
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    
+ /* for all the iteam under the container */
+   }
+
+   .container
+   {
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    
+    
+   }
+
+   /* for the four png images */
+
+  .four-images
+ {
+    display: flex;
+    flex-grow: 0;
+    margin: auto;
+    margin-top: 32px;
+    gap: 52px;
+    font: 'courier New';
+    font-size: xx-small;
+    font-weight: 100;
+    flex-wrap: wrap;
+    
+    
+    justify-content: center;
+ }
+
+ /* this is for the for images kind of the same with the four-imges  */
+ /* but i did it anyway */
+ .four
+ {
+
+   width: 100px;
+
+ }

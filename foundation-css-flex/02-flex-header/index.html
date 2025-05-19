@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-flex-header</title>
+
+    <style>
+      .container
+      {
+        font-family: 'Times New Roman', Times, serif;
+          height: 50px;
+         
+          background-color: antiquewhite;
+          margin: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          justify-content: space-around;
+
+
+      }
+
+    .bluetext
+      {
+        color: blue;
+        display: flex;
+        background-color: white;
+        font-weight: 300px;
+        
+        
+      }
+    .fist,.second
+    {
+       display: flex;
+       gap: 10px;
+       
+
+    }
+
+    .fist
+    {
+        margin-right: auto;
+        display: flex;
+        margin-left: 10px;
+        
+    }
+
+    .second
+
+    {
+        display: flex;
+      margin-left: auto;
+      margin-right: 10px;
+      
+
+    }
+    .logo
+    {
+    
+       color: rgb(228, 87, 87);
+       font-size: x-large;
+       font-weight: bolder;
+       background-color: white;
+       padding: 5px 7px;
+
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+         <div class="fist">
+
+           <div class="bluetext">ONE</div>
+
+           <div class="bluetext">TWO</div>
+
+           <div class="bluetext">THREE</div>
+
+        </div>
+
+         <div class="logo">LOGO</div>
+
+        <div class="second">
+
+             <div class="bluetext">FOUR</div>
+
+             <div class="bluetext">FIVE</div>
+
+             <div class="bluetext">SIX</div>
+        </div>
+    </div>
+</body>
+</html>
