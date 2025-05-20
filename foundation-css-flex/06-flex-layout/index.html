@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>06-flex-layout</title>
+
+
+  <style>
+
+    body
+    {
+      
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: xx-small;
+      font-weight: normal;
+      
+    }
+    .top-links
+    {
+       
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 8px;
+        text-decoration: none;
+        margin-bottom: 130px;
+        
+
+    }
+
+    .left-items
+    {
+      display: flex;
+      align-items: center;
+      margin-right: auto;
+      gap: 8px;
+     
+    }
+
+    .right-items
+    {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+    }
+    
+
+    
+    .centeritems
+    {
+      align-items: center;
+      text-align: center;
+      
+    }
+
+    button
+    {
+
+      font-size: 7px;
+    }
+
+    .input input
+    {
+      width:250px ;
+
+      border-radius: 20px;
+    }
+
+ .lastbox
+
+    {
+
+      text-decoration: none;
+      display: flex;
+      height: 20px;
+      background-color: antiquewhite;
+      width: auto;
+     position: fixed;
+      bottom: 0;
+      left: 0px;
+      right: 0px;
+      margin: auto;
+      text-decoration: none;
+      
+    }
+
+    .left-items a,
+.right-items a {
+  
+   text-decoration: none;
+}
+
+.left-items,.right-items
+
+{
+list-style: none; /* This removes the dots */
+
+
+}
+    
+   
+  </style>
+</head>
+<body>
+
+    <div class="top-links">
+
+      <div class="left-items">
+
+          <li><a href="#">About</a></li>
+
+          <li><a href="#">Store</a></li>
+
+      </div>
+
+      <div class="right-items">
+
+         <li><a href="#">Profile</a></li>
+
+         <li><a href="#">Settings</a></li>
+
+      </div>
+
+    </div>
+
+    
+      <div class="centeritems">
+
+         <img src="image/logo.png" alt="odin logo" height="100px">
+
+         <div class="input">
+
+           <input type="text">
+
+         </div>
+
+         <div class="buttons">
+            <button> Do the thing!</button>
+            <button> Do the other thing!</button>
+         </div>
+      </div>
+
+    <div class="lastbox">
+
+      <ul class="left-items"> 
+         <li><a href="#">Advertising</a></li>
+         <li><a href="#">Business</a></li>
+      </ul>
+      
+      
+      <ul class="right-items">
+
+         <li><a href="#">Privacy</a></li>
+
+         <li><a href="#">Terms</a></li>
+
+      </ul>
+
+      
+
+
+
+    </div>
+
+
+    
+  
+</body>
+</html>
